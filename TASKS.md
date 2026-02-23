@@ -4,7 +4,6 @@
 - [ ] **Build Log Button** - Prominent tap target to increment daily glass count by 1
 - [ ] **Build Glass Counter** - Numeric "X / 8 glasses" label, real-time update
 - [ ] **Implement Daily Reset** - Filter query by device calendar day
-- [ ] **Compose Single-Screen UI** - SwiftUI layout combining ring + count + button
 
 ## Waiting On
 
@@ -22,3 +21,4 @@
 ## Done
 - [x] **Create SwiftData Model** - WaterLog entity with timestamp field, local persistence
 - [x] **Build Ring Chart** - Animated circular progress indicator (0/8 to 8/8)
+- [x] **Compose Single-Screen UI** - SwiftUI layout combining ring + count + button
