@@ -12,7 +12,7 @@ import SwiftData
 struct AquaLogApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            // SwiftData models will be added here
+            WaterIntake.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
